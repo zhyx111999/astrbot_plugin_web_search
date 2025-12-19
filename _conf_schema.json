@@ -1,0 +1,26 @@
+{
+    "api_type": {
+        "description": "API 协议类型",
+        "type": "string",
+        "hint": "google: 官方接口; openai: 中转接口",
+        "default": "google"
+    },
+    "api_key": {
+        "description": "API 密钥",
+        "type": "list",
+        "hint": "填入 Gemini Key 或中转 Key",
+        "default": [],
+        "obvious_hint": true
+    },
+    "api_base_url": {
+        "description": "API 基础 URL",
+        "type": "string",
+        "hint": "使用中转时必须修改此项",
+        "default": "https://generativelanguage.googleapis.com"
+    },
+    "model": {
+        "description": "搜索使用的模型",
+        "type": "string",
+        "default": "gemini-2.0-flash"
+    }
+}
