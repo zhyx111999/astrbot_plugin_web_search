@@ -3,8 +3,9 @@ desc: 基于 Gemini 协议的网页搜索，支持 2025 全域时效性校对。
 version: v1.4.3
 author: YEZI
 # 必须与你 GitHub 顶部的地址栏完全一致
-repo: https://github.com/zhyx111999/astrbot_plugin_web_search.git
+repo: https://github.com/zhyx111999/astrbot_plugin_web_search
 help: |
   # 🌟 网页搜索
   提供 2025 全域时效性校对的联网搜索功能。
+
 
