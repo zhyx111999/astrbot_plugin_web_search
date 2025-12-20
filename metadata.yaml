@@ -1,11 +1,16 @@
 name: astrbot_plugin_web_search
-desc: 基于 Gemini 协议的网页搜索，支持 2025 全域时效性校对。
+desc: 提供基于 Gemini 协议的网页搜索与时效性校对功能。
 version: v1.4.3
 author: YEZI
-# 必须与你 GitHub 顶部的地址栏完全一致
 repo: https://github.com/zhyx111999/astrbot_plugin_web_search
 help: |
-  # 🌟 网页搜索
-  提供 2025 全域时效性校对的联网搜索功能。
-
-
+  ### 🔍 插件简介
+  本插件提供 **网页搜索** 功能，改良自原作者 **Chris** 的 `astrbot_plugin_gemini_search`。
+  
+  ### 🚀 主要改进
+  1. **时效性校对**：自动注入当前系统日期，强制模型比对搜索结果。优先参考 2025 年最新数据。
+  2. **协议适配**：支持 OpenAI 格式中转接口，解决连接限制。
+  
+  ### ⌨️ 使用说明
+  - 指令：`/search <内容>`
+  - 自然语言：直接提问时效性问题。
